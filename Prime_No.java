@@ -1,4 +1,3 @@
-//question 1:- Prime number 
 
 package Scanner;
 
@@ -23,14 +22,15 @@ public class Prime_No {
 				}
 				
 			}if(isprime) {
-				System.out.println("It is Prime Number Hence " + isprime );
-			}else {
-				System.out.println("It is not prime Number Hence " + isprime);
+				System.out.println("It is Prime Number Hence it is " +  isprime);
 			}
+				else {
+					System.out.println("It is not a prime Number Hence it is 2 " +  isprime);
+				}
 			Sc.close();
 			
 			
 			
 		}
-	
-}
+        }
+
